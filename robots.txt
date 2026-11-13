@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /home
+Disallow: /auth/
+
+# AI 검색(GEO)도 환영
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://seryeoncompany.com/sitemap.xml
