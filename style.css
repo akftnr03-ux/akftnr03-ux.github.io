@@ -1,5 +1,5 @@
 
-:root{--bg:#FBF9F8;--pink:#FFF5F6;--grey:#F4F1F0;--ink:#1A1214;--sub:#6B5B5F;--mute:#9C8C90;--line:rgba(26,18,20,.1);
+:root{--bg:#FBF9F8;--pink:#FFF5F6;--grey:#F4F1F0;--ink:#1A1214;--sub:#54464A;--mute:#86767A;--line:rgba(26,18,20,.1);
 --acc:#C0283A;--acct:#A82438;--dark:#16070B;--wine:#4A0C18;--rose:#FF9AA6;--blush:#EBD3D7;--ease:cubic-bezier(.2,.7,.2,1)}
 *{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 Pretendard,-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;word-break:keep-all;-webkit-font-smoothing:antialiased}
@@ -361,3 +361,17 @@ header,.hh header.s{background:rgba(255,255,255,.8);-webkit-backdrop-filter:satu
 .pa{padding:18px 4px 24px 24px}.pa p{font-size:16px}.pp{width:68px;height:68px}}
 @media(max-width:640px){.ph4{grid-template-columns:1fr;gap:18px}.pm{padding:26px 22px 0}.pm h3{font-size:21px}.pms{flex-wrap:wrap;padding:18px 96px 20px 0;font-size:14px}.pms b{margin-left:0;font-size:18px;width:100%}.pms .stp{width:84px;right:6px}
 .qc .stp{width:104px}.chs img{width:56px;height:56px}.hw h3{font-size:24px}.pmn span{display:block;margin:2px 0}}
+
+/* ── 글자 굵기·대비 올림(2026-11-13 대표님 "글자 더 두껍게, 밋밋해") ── */
+h1,h2,.hero h1,.top-h h1{font-weight:800;letter-spacing:-.035em}
+.state .big,.state .big b{font-weight:800;letter-spacing:-.035em}
+.state .pre{font-weight:700;color:var(--ink)}
+.cr h3,.who h3,.who h4,.pr h3,.tips h3,.ref h3,.ol h3,.ol b,.steps h3,.pa h3,.hw h3,.pm h3,.qc p,.i5 li,.cmp .n,.roster b,.hlist h3,.pc h3,.grp h2{font-weight:800}
+.lead{font-weight:500;color:#4A3D40}.dk .lead{color:#E2D6D9}.rd .lead{color:#FFF0F2}.hero .sub{font-weight:500;color:#F3E2E5}
+.hpre{font-weight:700}
+.btn,.hr .join,.tl{font-weight:700}
+header nav{font-weight:600}
+.facts dd,.nm b,.ba span,.proc li b,.tips i,.ref i{font-weight:800}
+.facts dt,.mt,.nm small{font-weight:600}
+.say,.who p,.pr p,.ref p,.tips p,.ol p,.pa p,.hw .s,.pm p,.cmp .o{font-weight:500}
+.kw li,.hw li,.ph4 li,.proc li{font-weight:700}
