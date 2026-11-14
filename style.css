@@ -448,3 +448,21 @@ em.u,b.u{color:#E5245E;text-decoration:underline;text-decoration-color:currentCo
 @media(max-width:860px){.i5,.i5 li:nth-child(4){grid-template-columns:repeat(3,1fr)}.i5 li,.i5 li:nth-child(4){padding:20px 8px}}
 @media(max-width:640px){.i5{grid-template-columns:repeat(2,1fr);gap:10px}.i5 li:last-child{grid-column:1/-1}.i5 .it{width:52px;height:52px;border-radius:16px}.state .say{padding:22px}
 .berg{padding-top:150px}.peak{height:132px}.sea{padding-bottom:96px;min-height:0}.sea ol{gap:18px}}
+
+/* ── 2026-11-14: 구간 잇기·글자 크기·제목 로고·진행 화살표·대표 소개 ── */
+.state{padding-bottom:36px}.state+.dif{padding-top:28px}
+.state .pre{font-size:clamp(28px,3.4vw,44px);font-weight:800;color:var(--ink);letter-spacing:-.03em}
+.state .big{font-size:clamp(26px,3.6vw,48px);margin-top:6px}
+.hlogo{display:inline-block;width:1em;height:1em;border-radius:.24em;vertical-align:-.12em;margin-right:.28em;box-shadow:0 4px 12px rgba(0,0,0,.16)}
+.ph4{gap:44px}.ph4>div{position:relative}
+.ph4>div+div::before{content:"";position:absolute;left:-34px;top:8px;width:24px;height:24px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 12h14M13 6l6 6-6 6' fill='none' stroke='%23C0283A' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
+.ph4 b{display:flex;align-items:center;gap:10px}
+.ph4 b span{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#fff;color:var(--acc);font-size:14px;font-weight:800;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.ph4 ol{position:relative}.ph4 ol::before{content:"";position:absolute;left:33px;top:24px;bottom:24px;border-left:2px dashed #EDB7C1}
+.ph4 li{position:relative;display:flex;align-items:center;gap:14px}
+.ph4 li i{flex:none;display:grid;place-items:center;width:32px;height:32px;border-radius:50%;font-style:normal;font-size:13px;font-weight:800;color:#fff;background:linear-gradient(180deg,#D4374C,#B02236);box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 4px 10px rgba(192,40,58,.25)}
+.cv{margin-top:36px;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.cv div{display:flex;flex-direction:column;gap:4px;padding:22px 26px;border-radius:20px;background:linear-gradient(180deg,#fff,#FFF7F8);box-shadow:inset 0 0 0 1px rgba(192,40,58,.1),0 10px 24px rgba(74,12,24,.07)}
+.cv b{font-size:20px;font-weight:800;letter-spacing:-.02em}.cv span{font-size:16px;color:var(--sub);font-weight:500}
+@media(max-width:1000px){.ph4>div+div::before{display:none}}
+@media(max-width:640px){.ph4>div+div::before{display:block;left:50%;top:-28px;transform:translateX(-50%) rotate(90deg)}.ph4{gap:40px}.cv{grid-template-columns:1fr}}
