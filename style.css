@@ -480,3 +480,25 @@ em.u,b.u{color:#E5245E;text-decoration:underline;text-decoration-color:currentCo
 .tbd .tips{border-top-color:var(--ink)}.tbd .tips>div{border-bottom-color:var(--line)}.tbd .tips i{color:var(--acc)}.tbd .tips p{color:var(--sub)}
 .fpb{padding:4px 4px 28px}.fpb .ph4{gap:26px}.fpb .ph4>div+div::before{left:-24px;width:20px}.fpb .ph4 li{font-size:15px;padding:12px 12px 12px 10px;gap:10px}.fpb .ph4 li i{width:28px;height:28px;font-size:12px}.fpb .ph4 ol::before{left:23px}.fpb .ph4 b{font-size:14px;padding:8px 10px}.fpb>p{color:var(--sub);font-size:17px;margin:0 0 4px 52px}.fpb .ph4{margin-top:20px}
 @media(max-width:640px){.tbb{display:flex;border-radius:18px}.tbb button{flex:1 1 auto;font-size:14px;padding:9px 12px}.fpb>p{margin-left:0}}
+
+/* ── 2026-11-14: 사례 핵심 문구 · 약속서 · 밑줄은 글자 뒤로 ── */
+.dmid{padding:0 22px;min-width:0}
+.dimp{display:block;font-size:clamp(30px,3.3vw,46px);line-height:1.15;font-weight:800;letter-spacing:-.035em;color:#C8102E;margin-bottom:14px}
+.dmid .dba{justify-content:flex-start;padding:0;gap:12px}.dmid .dba b{font-size:clamp(20px,2vw,28px)}.dmid .dba i{font-size:22px;padding-bottom:4px}
+.dmid .dbig{padding:0}.dmid .dbig em{font-size:15px}
+.pdoc{max-width:980px;margin:48px auto 0;padding:44px 56px 34px;border-radius:26px;background:#FFFCFA;color:var(--ink);text-align:left;box-shadow:0 30px 70px rgba(0,0,0,.45)}
+.pdh{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;padding-bottom:16px;border-bottom:2px solid var(--ink)}
+.pdh span{font-size:24px;font-weight:800;letter-spacing:-.02em}.pdh small{font-size:15px;color:var(--sub)}
+.pdoc ol{list-style:none;padding:0;margin:0}
+.pdoc li{display:grid;grid-template-columns:130px minmax(0,1fr);gap:8px 24px;padding:34px 0;border-bottom:1px dashed #E1C3C9}
+.pdoc li>b{font-size:clamp(28px,3vw,38px);font-weight:800;color:#C8102E;letter-spacing:-.03em;line-height:1.1}
+.pdoc h3{font-size:clamp(23px,2.5vw,31px);font-weight:800;letter-spacing:-.02em;line-height:1.35}
+.pdoc li p{font-size:19px;line-height:1.75;color:#3D3336;margin-top:10px}.pdoc li p em{font-style:normal;font-weight:800;color:#C8102E}
+.pds{position:relative;display:flex;align-items:center;gap:16px;padding:26px 150px 6px 0;font-size:16px;color:var(--sub)}
+.pds b{margin-left:auto;font-size:24px;font-weight:800;color:var(--ink)}
+.pds .stp{position:absolute;right:-6px;top:50%;width:150px;height:auto;transform:translateY(-48%)}
+.dk .pmn{color:#fff;margin-top:30px}
+em.u,b.u{text-decoration:none;padding:0 .04em;-webkit-box-decoration-break:clone;box-decoration-break:clone;background:linear-gradient(var(--ub,rgba(229,36,94,.26)),var(--ub,rgba(229,36,94,.26))) 0 calc(100% - .02em)/100% .3em no-repeat}
+.dk em.u,.rd em.u,.hero em.u,.glow em.u{--ub:rgba(255,107,150,.42)}
+.state .say b.u{--ub:rgba(255,143,176,.5);text-decoration:none}
+@media(max-width:640px){.pdoc{padding:26px 20px 20px}.pdoc li{grid-template-columns:1fr;padding:24px 0}.pdoc li p{font-size:16px}.pds{flex-wrap:wrap;padding-right:96px}.pds b{margin-left:0;width:100%;font-size:20px}.pds .stp{width:96px;right:-4px}.pdh{flex-direction:column;align-items:flex-start}.dmid{padding:16px 4px 0}}
