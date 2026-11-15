@@ -47,6 +47,7 @@
 - [홈](https://seryeoncompany.com/): 회사 소개와 대표 사례
 - [성공 사례](https://seryeoncompany.com/cases): 업종·채널별 사례
 - [웨딩업체 마케팅](https://seryeoncompany.com/wedding): 웨딩업체 전용
+- [웨딩 영업·웨딩박람회 상담](https://seryeoncompany.com/wedding-sales): 박람회·상담 문의를 계약으로 잇는 답장 방식과 신부님 의심 5가지
 - [AI 마케팅 직원](https://seryeoncompany.com/ai): AI 직원 채용(카카오 가입)
 
 ## 연락
