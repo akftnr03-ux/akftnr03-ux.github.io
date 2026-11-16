@@ -4,7 +4,7 @@
 <link rel="canonical" href="https://seryeoncompany.com/about">
 <meta property="og:type" content="website"><meta property="og:site_name" content="세련신부컴퍼니(세련컴퍼니)">
 <meta property="og:title" content="대표 소개 | 세련컴퍼니 대표 장유형"><meta property="og:description" content="웨딩업체만 3년 대행, 네이버 상위노출 1,000개. 세련컴퍼니 장유형 대표가 일하는 방식과 이력입니다.">
-<meta property="og:url" content="https://seryeoncompany.com/about"><meta property="og:image" content="https://seryeoncompany.com/img/og.jpg?v=bb51d9cf"><meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://seryeoncompany.com/about"><meta property="og:image" content="https://seryeoncompany.com/img/og.jpg?v=a9ffdcdc"><meta property="og:locale" content="ko_KR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#16070B">
@@ -533,6 +533,13 @@ header nav{align-items:center}.dd{position:relative}.ddt{display:inline-flex;ali
 .ddm a{display:block;padding:10px 12px;border-radius:9px;color:var(--ink)!important;font-size:15px;font-weight:600;white-space:nowrap}.ddm a:hover{background:#F7EEF0;color:var(--acc)!important}
 .dd:hover .ddm,.dd:focus-within .ddm{opacity:1;visibility:visible;transform:none}.dd:hover .ddt svg{transform:rotate(180deg)}
 @media(max-width:860px){.ddm{display:none}.ddt svg{opacity:.5}}
+/* 11/17 대표님 "이상마처럼 상단에 강의하는 모습": 첫 화면 전체를 강의 영상(소리 없이 반복) + 어둡게 덮고 글자는 왼쪽 */
+.hero.hvid{position:relative;isolation:isolate;background:#16070B}
+.hvid .hbg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}.hvid .hbg.m{display:none}
+.hvid::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(22,7,11,.94) 0%,rgba(22,7,11,.82) 38%,rgba(30,8,13,.45) 68%,rgba(30,8,13,.25) 100%)}
+.hvid .in{grid-template-columns:minmax(0,1fr);min-height:min(820px,100vh)}
+@media(max-width:860px){.hvid .hbg.pc{display:none}.hvid .hbg.m{display:block}.hvid::before{background:linear-gradient(180deg,rgba(22,7,11,.72) 0%,rgba(22,7,11,.6) 45%,rgba(22,7,11,.9) 100%)}.hvid .in{min-height:100svh;align-content:center}}
+@media(prefers-reduced-motion:reduce){.hvid .hbg{display:none}.hero.hvid{background:#16070B url("/img/hero/lecture_pc.jpg") center/cover}}
 /* 11/17 휴대폰: 서비스 소개·마케팅 교육 누르면 아래로 펼침 판 */
 #msheet{position:fixed;left:0;right:0;z-index:60;background:#fff;box-shadow:0 18px 40px rgba(26,18,20,.18);padding:6px 16px 14px;display:flex;flex-direction:column;border-top:1px solid rgba(26,18,20,.08)}#msheet b{font-size:13px;font-weight:800;color:#C0283A;padding:10px 4px 4px}#msheet a{padding:13px 4px;font-size:16px;font-weight:600;color:#1A1214!important;border-bottom:1px solid rgba(26,18,20,.06);text-decoration:none}#msheet a:last-child{border-bottom:0}
 .solg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:40px;text-align:left}.solg figure{margin:0}.solg img{display:block;width:100%;height:auto;border-radius:16px;box-shadow:0 18px 44px rgba(74,12,24,.12),0 0 0 1px rgba(26,18,20,.06)}
