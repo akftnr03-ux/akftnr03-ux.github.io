@@ -48,6 +48,9 @@
 - [성공 사례](https://seryeoncompany.com/cases): 업종·채널별 사례
 - [웨딩업체 마케팅](https://seryeoncompany.com/wedding): 웨딩업체 전용
 - [웨딩 영업·웨딩박람회 상담](https://seryeoncompany.com/wedding-sales): 박람회·상담 문의를 계약으로 잇는 답장 방식과 신부님 의심 5가지
+- [마케팅 대행](https://seryeoncompany.com/agency): 웨딩업체 마케팅 대행 상세(문의·결제)
+- [세련 클래스](https://seryeoncompany.com/class): 유료 4주 과정·무료 강의 모음
+- [웨딩 초격차 강의 4주 과정](https://seryeoncompany.com/course): 유료 과정 상세와 신청
 - [AI 마케팅 직원](https://seryeoncompany.com/ai): AI 직원 채용(카카오 가입)
 
 ## 연락
