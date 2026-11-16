@@ -520,7 +520,9 @@ header nav{align-items:center}.dd{position:relative}.ddt{display:inline-flex;ali
 .ddm::before{content:"";position:absolute;left:0;right:0;top:-16px;height:16px}
 .ddm a{display:block;padding:10px 12px;border-radius:9px;color:var(--ink)!important;font-size:15px;font-weight:600;white-space:nowrap}.ddm a:hover{background:#F7EEF0;color:var(--acc)!important}
 .dd:hover .ddm,.dd:focus-within .ddm{opacity:1;visibility:visible;transform:none}.dd:hover .ddt svg{transform:rotate(180deg)}
-@media(max-width:860px){.ddm{display:none}.ddt svg{display:none}}
+@media(max-width:860px){.ddm{display:none}.ddt svg{opacity:.5}}
+/* 11/17 휴대폰: 서비스 소개·마케팅 교육 누르면 아래로 펼침 판 */
+#msheet{position:fixed;left:0;right:0;z-index:60;background:#fff;box-shadow:0 18px 40px rgba(26,18,20,.18);padding:6px 16px 14px;display:flex;flex-direction:column;border-top:1px solid rgba(26,18,20,.08)}#msheet b{font-size:13px;font-weight:800;color:#C0283A;padding:10px 4px 4px}#msheet a{padding:13px 4px;font-size:16px;font-weight:600;color:#1A1214!important;border-bottom:1px solid rgba(26,18,20,.06);text-decoration:none}#msheet a:last-child{border-bottom:0}
 .solg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:40px;text-align:left}.solg figure{margin:0}.solg img{display:block;width:100%;height:auto;border-radius:16px;box-shadow:0 18px 44px rgba(74,12,24,.12),0 0 0 1px rgba(26,18,20,.06)}
 .solg figcaption{display:flex;align-items:center;gap:10px;margin-top:14px;font-size:17px;font-weight:700}.solg figcaption b{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--acc);color:#fff;font-size:14px;flex:none}
 @media(max-width:860px){.solg{grid-template-columns:1fr}}
